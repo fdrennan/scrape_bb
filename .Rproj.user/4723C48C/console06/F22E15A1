@@ -48,3 +48,103 @@ To github.com:fdrennan/scrape_bb.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 ]0;~/Documents/programming/rProjects/bnb[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/bnb[0;33m (master)[0m$ git add -- all
+git commit ]0;~/Documents/programming/rProjects/bnb[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/bnb[0;33m (master)[0m$ git commit  -m 'update'
+[master 3871ce2] update
+ 87 files changed, 4626 insertions(+)
+ create mode 100644 .Rproj.user/4723C48C/console06/F22E15A1
+ create mode 100644 .Rproj.user/4723C48C/console06/F22E15A1.env
+ create mode 100644 .Rproj.user/4723C48C/console06/INDEX001
+ create mode 100644 .Rproj.user/4723C48C/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/persistent-state
+ create mode 100644 .Rproj.user/4723C48C/rmd-outputs
+ create mode 100644 .Rproj.user/4723C48C/saved_source_markers
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/1B0A9070
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/2181C435
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/36F59DD9
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/98376F
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/EFE94C10
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/INDEX
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/687D1456
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/687D1456-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/7525DAEA
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/7525DAEA-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/9F4B7A2D
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/9F4B7A2D-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/BA5F34CC
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/BA5F34CC-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/EBCA91D9
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/EBCA91D9-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-6306ECEA/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 bnb.Rproj
+ create mode 100644 editsite.js
+ create mode 100644 functions.R
+ create mode 100755 phantomjs
+ create mode 100644 phantomjsLib/ChangeLog
+ create mode 100644 phantomjsLib/LICENSE.BSD
+ create mode 100644 phantomjsLib/README.md
+ create mode 100755 phantomjsLib/bin/phantomjs
+ create mode 100644 phantomjsLib/examples/arguments.js
+ create mode 100644 phantomjsLib/examples/child_process-examples.js
+ create mode 100644 phantomjsLib/examples/colorwheel.js
+ create mode 100644 phantomjsLib/examples/countdown.js
+ create mode 100644 phantomjsLib/examples/detectsniff.js
+ create mode 100644 phantomjsLib/examples/echoToFile.js
+ create mode 100644 phantomjsLib/examples/features.js
+ create mode 100644 phantomjsLib/examples/fibo.js
+ create mode 100644 phantomjsLib/examples/hello.js
+ create mode 100644 phantomjsLib/examples/injectme.js
+ create mode 100644 phantomjsLib/examples/loadspeed.js
+ create mode 100644 phantomjsLib/examples/loadurlwithoutcss.js
+ create mode 100644 phantomjsLib/examples/modernizr.js
+ create mode 100644 phantomjsLib/examples/module.js
+ create mode 100644 phantomjsLib/examples/netlog.js
+ create mode 100644 phantomjsLib/examples/netsniff.js
+ create mode 100644 phantomjsLib/examples/openurlwithproxy.js
+ create mode 100644 phantomjsLib/examples/outputEncoding.js
+ create mode 100644 phantomjsLib/examples/page_events.js
+ create mode 100644 phantomjsLib/examples/pagecallback.js
+ create mode 100644 phantomjsLib/examples/phantomwebintro.js
+ create mode 100644 phantomjsLib/examples/post.js
+ create mode 100644 phantomjsLib/examples/postjson.js
+ create mode 100644 phantomjsLib/examples/postserver.js
+ create mode 100644 phantomjsLib/examples/printenv.js
+ create mode 100644 phantomjsLib/examples/printheaderfooter.js
+ create mode 100644 phantomjsLib/examples/printmargins.js
+ create mode 100644 phantomjsLib/examples/rasterize.js
+ create mode 100644 phantomjsLib/examples/render_multi_url.js
+ create mode 100644 phantomjsLib/examples/responsive-screenshot.js
+ create mode 100644 phantomjsLib/examples/run-jasmine.js
+ create mode 100644 phantomjsLib/examples/run-jasmine2.js
+ create mode 100644 phantomjsLib/examples/run-qunit.js
+ create mode 100644 phantomjsLib/examples/scandir.js
+ create mode 100644 phantomjsLib/examples/server.js
+ create mode 100644 phantomjsLib/examples/serverkeepalive.js
+ create mode 100644 phantomjsLib/examples/simpleserver.js
+ create mode 100644 phantomjsLib/examples/sleepsort.js
+ create mode 100644 phantomjsLib/examples/stdin-stdout-stderr.js
+ create mode 100644 phantomjsLib/examples/universe.js
+ create mode 100644 phantomjsLib/examples/unrandomize.js
+ create mode 100644 phantomjsLib/examples/useragent.js
+ create mode 100644 phantomjsLib/examples/version.js
+ create mode 100644 phantomjsLib/examples/waitfor.js
+ create mode 100644 phantomjsLib/examples/walk_through_frames.js
+ create mode 100644 phantomjsLib/third-party.txt
+ create mode 100644 runjs.R
+ create mode 100644 scrapeJs.R
+ create mode 100644 scrapePage.txt
+ create mode 100644 website.html
+]0;~/Documents/programming/rProjects/bnb[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/bnb[0;33m (master)[0m$ git push o rigin master
+Counting objects: 94, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/88)   Compressing objects:   2% (2/88)   Compressing objects:   3% (3/88)   Compressing objects:   4% (4/88)   Compressing objects:   5% (5/88)   Compressing objects:   6% (6/88)   Compressing objects:   7% (7/88)   Compressing objects:   9% (8/88)   Compressing objects:  10% (9/88)   Compressing objects:  11% (10/88)   Compressing objects:  12% (11/88)   Compressing objects:  13% (12/88)   Compressing objects:  14% (13/88)   Compressing objects:  15% (14/88)   Compressing objects:  17% (15/88)   Compressing objects:  18% (16/88)   Compressing objects:  19% (17/88)   Compressing objects:  20% (18/88)   Compressing objects:  21% (19/88)   Compressing objects:  22% (20/88)   Compressing objects:  23% (21/88)   Compressing objects:  25% (22/88)   Compressing objects:  26% (23/88)   Compressing objects:  27% (24/88)   Compressing objects:  28% (25/88)   Compressing objects:  29% (26/88)   Compressing objects:  30% (27/88)   Compressing objects:  31% (28/88)   Compressing objects:  32% (29/88)   Compressing objects:  34% (30/88)   Compressing objects:  35% (31/88)   Compressing objects:  36% (32/88)   Compressing objects:  37% (33/88)   Compressing objects:  38% (34/88)   Compressing objects:  39% (35/88)   Compressing objects:  40% (36/88)   Compressing objects:  42% (37/88)   Compressing objects:  43% (38/88)   Compressing objects:  44% (39/88)   Compressing objects:  45% (40/88)   Compressing objects:  46% (41/88)   Compressing objects:  47% (42/88)   Compressing objects:  48% (43/88)   Compressing objects:  50% (44/88)   Compressing objects:  51% (45/88)   Compressing objects:  52% (46/88)   Compressing objects:  53% (47/88)   Compressing objects:  54% (48/88)   Compressing objects:  55% (49/88)   Compressing objects:  56% (50/88)   Compressing objects:  57% (51/88)   Compressing objects:  59% (52/88)   Compressing objects:  60% (53/88)   Compressing objects:  61% (54/88)   Compressing objects:  62% (55/88)   Compressing objects:  63% (56/88)   Compressing objects:  64% (57/88)   Compressing objects:  65% (58/88)   Compressing objects:  67% (59/88)   Compressing objects:  68% (60/88)   Compressing objects:  69% (61/88)   Compressing objects:  70% (62/88)   Compressing objects:  71% (63/88)   Compressing objects:  72% (64/88)   Compressing objects:  73% (65/88)   Compressing objects:  75% (66/88)   Compressing objects:  76% (67/88)   Compressing objects:  77% (68/88)   Compressing objects:  78% (69/88)   Compressing objects:  79% (70/88)   Compressing objects:  80% (71/88)   Compressing objects:  81% (72/88)   Compressing objects:  82% (73/88)   Compressing objects:  84% (74/88)   Compressing objects:  85% (75/88)   Compressing objects:  86% (76/88)   Compressing objects:  87% (77/88)   Compressing objects:  88% (78/88)   Compressing objects:  89% (79/88)   Compressing objects:  90% (80/88)   Compressing objects:  92% (81/88)   Compressing objects:  93% (82/88)   Compressing objects:  94% (83/88)   Compressing objects:  95% (84/88)   Compressing objects:  96% (85/88)   Compressing objects:  97% (86/88)   Compressing objects:  98% (87/88)   Compressing objects: 100% (88/88)   Compressing objects: 100% (88/88), done.
+Writing objects:   1% (1/94)   Writing objects:   2% (2/94)   Writing objects:   3% (3/94)   Writing objects:   4% (4/94)   Writing objects:   5% (5/94)   Writing objects:   6% (6/94)   Writing objects:   7% (7/94)   Writing objects:   8% (8/94)   Writing objects:   9% (9/94)   Writing objects:  10% (10/94)   Writing objects:  11% (11/94)   Writing objects:  12% (12/94)   Writing objects:  13% (13/94)   Writing objects:  14% (14/94)   Writing objects:  15% (15/94)   Writing objects:  17% (16/94)   Writing objects:  18% (17/94)   Writing objects:  19% (18/94)   Writing objects:  20% (19/94)   Writing objects:  21% (20/94)   Writing objects:  22% (21/94)   Writing objects:  23% (22/94)   Writing objects:  24% (23/94)   Writing objects:  25% (24/94)   Writing objects:  27% (26/94)   Writing objects:  28% (27/94)   Writing objects:  29% (28/94)   Writing objects:  30% (29/94)   Writing objects:  31% (30/94)   Writing objects:  32% (31/94)   Writing objects:  34% (32/94)   Writing objects:  35% (33/94)   Writing objects:  36% (34/94)   Writing objects:  37% (35/94)   Writing objects:  38% (36/94)   Writing objects:  39% (37/94)   Writing objects:  40% (38/94)   Writing objects:  41% (39/94)   Writing objects:  42% (40/94)   Writing objects:  42% (40/94), 16.00 KiB | 2.00 KiB/s   Writing objects:  42% (40/94), 1.30 MiB | 356.00 KiB/s   Writing objects:  42% (40/94), 2.64 MiB | 641.00 KiB/s   Writing objects:  42% (40/94), 5.64 MiB | 1.03 MiB/s   Writing objects:  42% (40/94), 7.51 MiB | 1.22 MiB/s   Writing objects:  42% (40/94), 10.62 MiB | 1.41 MiB/s   Writing objects:  42% (40/94), 12.48 MiB | 1.53 MiB/s   Writing objects:  42% (40/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  43% (41/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  44% (42/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  45% (43/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  46% (44/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  47% (45/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  48% (46/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  50% (47/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  51% (48/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  52% (49/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  53% (50/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  54% (51/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  55% (52/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  56% (53/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  57% (54/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  58% (55/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  59% (56/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  60% (57/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  62% (59/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  63% (60/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  64% (61/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  65% (62/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  67% (63/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  68% (64/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  69% (65/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  70% (66/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  71% (67/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  72% (68/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  73% (69/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  74% (70/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  75% (71/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  76% (72/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  77% (73/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  78% (74/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  79% (75/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  80% (76/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  81% (77/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  82% (78/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  84% (79/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  85% (80/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  86% (81/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  87% (82/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  88% (83/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  89% (84/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  90% (85/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  91% (86/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  92% (87/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  93% (88/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  94% (89/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  95% (90/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  96% (91/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  97% (92/94), 14.95 MiB | 2.43 MiB/s   Writing objects:  98% (93/94), 14.95 MiB | 2.43 MiB/s   Writing objects: 100% (94/94), 16.41 MiB | 2.44 MiB/s   Writing objects: 100% (94/94), 16.61 MiB | 2.39 MiB/s, done.
+Total 94 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), done.[K
+To github.com:fdrennan/scrape_bb.git
+   024477b..3871ce2  master -> master
+[K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/bnb[0;33m (master)[0m$ git add --all
