@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519953032419.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1935489437",
+    "id" : "EBCA91D9",
+    "lastKnownWriteTime" : 1519953042,
+    "last_content_update" : 1519953042322,
+    "path" : "~/Documents/programming/rProjects/bnb/scrapeJs.R",
+    "project_path" : "scrapeJs.R",
+    "properties" : {
+        "cursorPosition" : "9,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
