@@ -1,6 +1,18 @@
 # # Explanation here: https://www.r-bloggers.com/web-scraping-javascript-rendered-sites/
+mongo_connect = function(collectionName, dbName) {
+  # Cred
+  hostName = "mongodb://fdrennan:thirdday1@drenr.com:27017"
+  
+  m <- mongolite::mongo(collection = collectionName , 
+                        db = dbName, 
+                        url = hostName)
+  
+  m
+}
 
+m = mongo_connect('bnb', 'datasets')
 
+library(mongolite)
 library(tidyverse)
 library(rvest)
 library(stringr)
@@ -53,7 +65,8 @@ for(i in seq_along(site)) {
       str_sub(start = 16) %>% 
       gsub("&.*", "", .)
     
-    page_tibble[i,3] = link
+    page_tibble[j,3] = link
+    print(page_tibble)
   }
   
   
@@ -70,6 +83,7 @@ for(i in seq_along(site)) {
     page_tibble_df = bind_rows(page_tibble_df, page_tibble)
   }
   print(page_tibble_df)
+  m$insert(page_tibble)
 }
 
 
